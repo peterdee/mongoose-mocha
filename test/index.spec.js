@@ -1,4 +1,4 @@
-const assert = require('assert');
+const { expect } = require('chai');
 
 const index = require('..');
 
@@ -9,8 +9,8 @@ describe(
       'Should connect to the database and find a result',
       async () => {
         const result = await index();
-        assert(result);
-        assert.equal(result.price, 10);
+        expect(!!result).to.equal(true);
+        expect(result.price).to.equal(10);
       },
     );
   },

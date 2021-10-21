@@ -1,4 +1,4 @@
-const assert = require('assert');
+const { expect } = require('chai');
 
 const database = require('../database');
 
@@ -8,9 +8,9 @@ describe(
     it(
       'Should connect and get some results',
       async () => {
-        assert.equal(database.instance.readyState, 1);
+        expect(database.instance.readyState).to.equal(1);
         const results = await database.Item.find();
-        assert(results.length > 0);
+        expect(results.length > 0).to.equal(true);
       },
     );
   },

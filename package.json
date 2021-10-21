@@ -1,7 +1,7 @@
 {
   "name": "mongoose-mocha",
   "version": "1.0.0",
-  "description": "Testing Mongoose with Mocha",
+  "description": "Testing Mongoose with Mocha, Chai and MongoDB Memory Server",
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
     "mongoose": "^6.0.11"
   },
   "devDependencies": {
+    "chai": "^4.3.4",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.25.2",

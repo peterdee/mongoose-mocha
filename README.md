@@ -1,6 +1,6 @@
 ## Testing Mongoose with Mocha
 
-A simple showcase of how [Mongoose](https://mongoosejs.com) can be tested with [Mocha](https://mochajs.org) and [MongoDB Memory Server](https://github.com/nodkz/mongodb-memory-server)
+A simple showcase of how [Mongoose](https://mongoosejs.com) can be tested with [Mocha](https://mochajs.org), [Chai](https://www.chaijs.com) and [MongoDB Memory Server](https://github.com/nodkz/mongodb-memory-server)
 
 ### Deploy
 

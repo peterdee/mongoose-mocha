@@ -1,7 +1,4 @@
-const dotenv = require('dotenv');
 const { MongoMemoryServer } = require('mongodb-memory-server');
-
-dotenv.config();
 
 const database = require('../database');
 const seeding = require('../seeding');

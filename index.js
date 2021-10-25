@@ -1,7 +1,3 @@
-const dotenv = require('dotenv');
-
-dotenv.config();
-
 const database = require('./database');
 const seeding = require('./seeding');
 
